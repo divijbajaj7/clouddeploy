@@ -19,3 +19,6 @@ sv = SVC(kernel='linear').fit(X_train,y_train)
 
 
 pickle.dump(sv, open('iri.pkl', 'wb'))
+
+## This is model building on Iris dataset
+## Here we are saving the model 
